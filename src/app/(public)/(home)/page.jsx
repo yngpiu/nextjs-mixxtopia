@@ -17,13 +17,13 @@ const HomePage = async () => {
 
   return (
     <div>
-      {/* <section>
+      <section>
         {result1.error ? (
           <div className='text-center text-red-500'>{result1.error}</div>
         ) : (
           <HeroCarousel carouselImages={JSON.stringify(result1)} />
         )}
-      </section> */}
+      </section>
       <section>
         <IKImage
           src={
